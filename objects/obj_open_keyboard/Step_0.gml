@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this 
 
-show_debug_message("xcamera: {0}, xviewport: {1}", camera_get_view_x(view_camera[0]) + view_wport[0],  camera_get_view_y(view_camera[0]))
 x =  camera_get_view_x(view_camera[0]) / 2
 
 // Determina se esta visivel baseado na variavel global

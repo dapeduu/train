@@ -9,6 +9,7 @@ enum GENIUS_COLOR {
 }
 
 is_genius = type == "genius"
+is_playing = false
 
 normal_color = 0
 highligh_color = 0
@@ -36,8 +37,36 @@ if is_genius {
 	}
 }
 
-function push_button() { 
+function get_user_input(is_machine) {
+	if is_machine return;
+	
+	show_debug_message("value: {0}")
+	var _count = 0
+	repeat array_length(inst_genius.user_sequence)  {
+		show_debug_message("user sequence: {0}",inst_genius.user_sequence[_count])
+		_count += 1
+	}
+	
+	array_push(inst_genius.user_sequence, genius_value)
+}
+
+/**
+ *  Function Description
+ * @param {boolean} is_machine  Description
+ */
+function play_sound(is_machine) {
+	if !is_genius return;
+	is_playing = true
+	
+	alarm_set(0, game_get_speed(gamespeed_fps) * .5)
+	get_user_input(is_machine)
+	audio_play_sound(sound, 10, false);
+}
+
+function push_button(is_machine=false) { 
 	image_index = is_genius ? highligh_color : pressed_image_index	
+	
+	play_sound(is_machine)
 }
 
 function release_button() {

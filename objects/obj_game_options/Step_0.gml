@@ -4,22 +4,19 @@
 var _x_player = inst_player.x
 var _y_player = inst_player.y
 
-show_debug_message("PLayer posx {0}, posy {1}", _x_player, _y_player)
-show_debug_message("PLayer dist train: {0}", _x_player, _y_player)
-
 var _distance = 50
 
 if point_distance(inst_player.x, inst_player.y, inst_train_1.x, inst_train_1.y) < _distance {
-	show_debug_message("Seguindo o trem 1")
+	//show_debug_message("Seguindo o trem 1")
 	return camera_set_view_target(view_camera[0], inst_train_1)
 }
 
 if point_distance(inst_player.x, inst_player.y, inst_train_2.x, inst_train_2.y) < _distance {
-	show_debug_message("Seguindo o trem 2")
+	//show_debug_message("Seguindo o trem 2")
 	return camera_set_view_target(view_camera[0], inst_train_2)
 }
 
 if point_distance(inst_player.x, inst_player.y, inst_train_3.x, inst_train_3.y) < _distance {
-	show_debug_message("Seguindo o trem 3")
+	//show_debug_message("Seguindo o trem 3")
 	return camera_set_view_target(view_camera[0], inst_train_3)
 }
