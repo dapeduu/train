@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_train",
-  "eventList":[],
+  "%Name":"obj_genius",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_train",
+  "name":"obj_genius",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,11 +29,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"sTrain",
-    "path":"sprites/sTrain/sTrain.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

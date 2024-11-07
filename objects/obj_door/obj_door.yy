@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_train",
+  "%Name":"obj_door",
   "eventList":[],
   "managed":true,
-  "name":"obj_train",
+  "name":"obj_door",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sTrain",
-    "path":"sprites/sTrain/sTrain.yy",
+    "name":"sDoor",
+    "path":"sprites/sDoor/sDoor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

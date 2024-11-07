@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solid",
-  "eventList":[],
+  "%Name":"obj_ui",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_solid",
+  "name":"obj_ui",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,11 +29,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"sSolid",
-    "path":"sprites/sSolid/sSolid.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

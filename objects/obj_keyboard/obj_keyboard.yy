@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_train",
-  "eventList":[],
+  "%Name":"obj_keyboard",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_train",
+  "name":"obj_keyboard",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sTrain",
-    "path":"sprites/sTrain/sTrain.yy",
+    "name":"sKeyboard",
+    "path":"sprites/sKeyboard/sKeyboard.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"sTrain",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":39,
   "bbox_left":0,
   "bbox_right":99,
-  "bbox_top":0,
+  "bbox_top":24,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -28,7 +28,7 @@
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":22,
-    "enabled":true,
+    "enabled":false,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
     "highlightStyle":0,
