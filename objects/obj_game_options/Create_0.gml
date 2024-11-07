@@ -9,7 +9,9 @@ window_center()
 
 global.genius_open = false
 global.keyboard_open = false
+global.bag_open = false
 global.player_has_knife = false
 global.current_train = 0
 global.cortado = false
+
 
