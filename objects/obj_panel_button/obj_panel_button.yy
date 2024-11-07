@@ -13,7 +13,7 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,6 +29,8 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"pressed_image_index","filters":[],"listItems":[],"multiselect":false,"name":"pressed_image_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"released_image_index","filters":[],"listItems":[],"multiselect":false,"name":"released_image_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"type","filters":[],"listItems":[],"multiselect":false,"name":"type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"genius","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"genius_color","filters":[],"listItems":[],"multiselect":false,"name":"genius_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"green","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
