@@ -21,7 +21,8 @@ if global.keyboard_open && mouse_check_button(mb_left) && can_interact {
 	if image_index == PANEL_STATE.CLOSED {
 		image_index = PANEL_STATE.OPEN	
 	} else if image_index == PANEL_STATE.OPEN && global.player_has_knife {
-		image_index = PANEL_STATE.CUTTED	
+		image_index = PANEL_STATE.CUTTED
+		global.cortado = true
 	}
 	can_interact = false
 	alarm_set(0, game_get_speed(gamespeed_fps) * .5) // Pode interagir dps de .5 seg

@@ -10,3 +10,4 @@ window_center()
 global.keyboard_open = false
 global.player_has_knife = false
 global.current_train = 0
+global.cortado = false
